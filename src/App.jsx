@@ -8,7 +8,7 @@ import {
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import AchievementsPage from './pages/Achievements/AchievementsPage';
-import ScrollToTop from './components/ScrolltoTop';
+import ScrollToTop from "./components/ScrollToTop";
 import LearningPage from './pages/Learning/Learning';
 const App = () => {
   return (
