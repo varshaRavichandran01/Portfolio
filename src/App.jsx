@@ -10,6 +10,9 @@ import About from './pages/about/About';
 import AchievementsPage from './pages/Achievements/AchievementsPage';
 import ScrollToTop from "./components/ScrollToTop";
 import LearningPage from './pages/Learning/Learning';
+import Notes from './pages/Notes/Notes';
+import Contact from './pages/Contact/Contact';
+import Reflections from './pages/Reflections/Reflections';
 const App = () => {
   return (
     <div>
@@ -22,6 +25,9 @@ const App = () => {
           <Route path="/about" element={<About/>} />
           <Route path="/achievements" element={<AchievementsPage/>} />
           <Route path="/learning" element={<LearningPage/>} />
+          <Route path="/notes" element={<Notes/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/reflections" element={<Reflections/>} />
         </Routes>
        </BrowserRouter>
     </div>

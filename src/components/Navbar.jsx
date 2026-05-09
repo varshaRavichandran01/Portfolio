@@ -23,9 +23,9 @@ const Navbar = () => {
           <Link to="/achievements" className="hover:text-emerald-600">Achievements</Link>
           <Link to="/contact" className="hover:text-emerald-600">Contact</Link>
 
-          <Link to="/contact">
+          <Link to="/reflections">
             <button className="bg-emerald-600 text-white px-5 py-2 rounded-lg hover:bg-emerald-700">
-              Book Appointment
+              Explore Reflections
             </button>
           </Link>
         </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
 
           <button className="mt-3 bg-emerald-600 text-white px-5 py-2 rounded-lg">
-            Book Appointment
+            Explore Reflections
           </button>
         </div>
       )}
